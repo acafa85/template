@@ -2,12 +2,13 @@
 ## Pasos para la creacion de un nuevo proyecto:
 
 ```
-1) Crear un nuevo repositorio
+1) Crear un nuevo repositorio en la web de github
 
 2) Ejecutar los siguientes comandos:
 
-git clone https://github.com/acafa85/proyecto_x.git
-cd proyecto_x
+git clone https://github.com/acafa85/template.git
+mv template proyecto_x
+cd proyecto_x 
 rm -rf .git
 git init
 git remote add origin <url del nuevo repositorio>
